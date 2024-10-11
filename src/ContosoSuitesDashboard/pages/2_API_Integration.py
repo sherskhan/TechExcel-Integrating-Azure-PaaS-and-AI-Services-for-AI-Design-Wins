@@ -48,7 +48,7 @@ def main():
 
     # Display the list of bookings for the selected hotel as a table
     if selected_hotel:
-        hotel_id = selected_hotel["id"]
+        hotel_id = selected_hotel["id"]#this is test
         bookings = get_hotel_bookings(hotel_id).json()
         st.write("### Bookings")
         st.table(bookings)
