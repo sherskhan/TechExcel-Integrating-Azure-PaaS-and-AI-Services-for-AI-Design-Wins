@@ -77,5 +77,5 @@ jobs:
 
     - uses: azure/webapps-deploy@v2
       with:
-        app-name: 'apim-dtd73janjjwaq-api'
+        app-name: 'dtd73janjjwaq-api'
         images: dtd73janjjwaqcosureg.azurecr.io/techexcel/csapi:${{github.run_number}}
